@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body, html {
+	height: 100%;
+  }
+  .header>img{
+		display: block;
+		margin-left: auto;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		
+
+  }
+header>img{
+	border: 50%;
+	margin-left: 45%;
+}
+
+header {
+	background: linear-gradient(145deg,rgb(216, 162, 162));
+	color: #fff;
+
+	justify-content: space-between;
+	align-items: center;
+}
+
+header>img {
+	border-radius: 50%;
+  }
+  
+  h1 {
+  
+  align-self: start;
+  align-content: end;
+  }
+  
+
+h1, h2 {
+
+	text-align: center;
+	margin-top: 20px;
+}
+
+p {
+	text-align: left;
+	color: #fcfbfb;
+	margin-bottom: 20px;
+}
+
+.formdiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+	
+}
+select{
+	align-items: center;
+	width: 300px;
+	height: 20px; /* Increase the height of the select element */
+	overflow: auto; /* Add scrolling if the options overflow the height */
+	
+  }
+form {
+	align-items: center;
+	user-select: text;
+    border: 10px;
+	box-sizing: border-box;
+	padding: 20px;
+    padding-left: 0%;
+	
+	display: block;
+	background: linear-gradient(145deg,rgb(222, 143, 143), rgb(244, 120, 75));
+	padding: 20px;
+	border: 1px solid #faf9f9;
+	
+	width: 400px;
+	line-height: 25px;
+	max-height: max-content;
+}
+
+ label {align-items: center;
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+      
+input[type="text"],
+input[type="date"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #fbf7f7;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+textarea {
+	resize: none;
+}
+
+input[type="file"] {
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+} 
+
+.center{
+	display: block;
+	margin-left: auto;
+	width: 50%;
+  }
